@@ -10,3 +10,6 @@ Windows support is fantastic, but macOS and Linux support are lacking. I work fr
 This is a header-only library consisting of a single file, lamp.h. It defines a number of functions that handle structuring writes to an attached BusyLight. I'm using signal11's excellent [hidapi](https://github.com/signal11/hidapi) under the covers to abstract away the platform-specific USB HID device interaction differences.
 
 Note that this is just a library for interfacing with the light; this library doesn't integrate with Skype for Business, or provide any UI whatsoever for actually setting the lamp color.
+
+## Example
+For a simple example, see [src/example/setlamp.c](https://github.com/brporter/libbl/blob/master/src/example/setlamp.c).
